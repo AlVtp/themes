@@ -1,0 +1,21 @@
+// Flower Rotation //
+
+@keyframes rotating {
+    100% {
+      transform: rotate(1turn);
+    }
+  }
+  .site-footer::after,
+  .site-footer ul::after,
+  .site-footer::before,
+  .story__article::after,
+  #studio h2::before,
+  #studio h2::after,
+  .story h2::after,
+  .fleur {
+    animation: rotating 20s normal linear infinite;
+  } 
+
+  .story h2::after {
+    transform-origin: 77px 77px;
+  }
