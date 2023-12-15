@@ -12,6 +12,14 @@
 ?>
 
 	<footer id="colophon" class="site-footer">
+        
+    <section id="oscars">
+            
+            <div>
+            <img src="<?php echo get_template_directory_uri() . '/assets/images/Oscars.png'; ?> " alt="Image oscar studio koukaki">
+
+               </div>
+            </section>
         <ul>
             <li><a href="#">Mentions Légales</a></li>
             <li><a href="#">STUDIO KOUKAKI</a></li>

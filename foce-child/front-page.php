@@ -4,10 +4,10 @@ get_header();
 ?>
 
     <main id="primary" class="site-main">
-        <section class="banner">
+        <section class="banner logo">
             <img src="<?php echo get_template_directory_uri() . '/assets/images/logo.png'; ?> " alt="logo Fleurs d'oranger & chats errants">
         </section>
-        <section id="#story" class="story">
+        <section class="story">
             <h2>L'histoire</h2>
             <article id="" class="story__article">
                 <p><?php echo get_theme_mod('story'); ?></p>

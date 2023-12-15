@@ -1,3 +1,67 @@
+  // Fade in //
+
+  .logo {
+    animation-name: fadein;
+    animation-duration: 2s;
+    
+}
+  
+ .story {
+    animation-name: fadein2;
+    animation-duration: 2s;
+    p {
+      animation-name: fadein3;
+      animation-duration: 2s;
+    }
+  }
+  
+
+  @keyframes fadein {
+    from {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+  }
+
+  @keyframes fadein2 {
+    from {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+  }
+
+  @keyframes fadein3 {
+    from {
+        transform: translateY(-100px);
+        opacity: 1;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+  }
+
+//Fade in pour chrome
+
+// @-webkit-keyframes fadein {
+//     from {
+//         transform: translateY(-100px);
+//         opacity: 0;
+//     }
+//     to {
+//         transform: translateY(0px);
+//         opacity: 1;
+//     }
+//   }
+
 // Flower Rotation //
 
 @keyframes rotating {
@@ -19,3 +83,4 @@
   .story h2::after {
     transform-origin: 77px 77px;
   }
+
