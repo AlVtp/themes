@@ -4,6 +4,10 @@ function theme_enqueue_styles() {
     wp_enqueue_style( 'foce-child-style', get_template_directory_uri() . '/style.css', array('foce-style'), _S_VERSION );
 
 }
+//swiper
+wp_enqueue_style('swiper', 'https://unpkg.com/swiper/swiper-bundle.min.css', array(), '1.0');
+wp_enqueue_script('swiper-js', 'https://unpkg.com/swiper/swiper-bundle.min.js', array(), '1.0', true);
+
 
 // Get customizer options form parent theme
 if ( get_stylesheet() !== get_template() ) {

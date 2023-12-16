@@ -5,7 +5,11 @@ get_header();
 
     <main id="primary" class="site-main">
         <section class="banner logo">
-            <img src="<?php echo get_template_directory_uri() . '/assets/images/logo.png'; ?> " alt="logo Fleurs d'oranger & chats errants">
+            <video id="background-video" class="logo" autoplay loop muted> 
+            <source src="'wp-content/themes/foce-child/assets/videos/Studio-Koukaki-video-header.mp4';" type="video/mp4"> 
+            </video>
+            <img class="logo" src="<?php echo get_template_directory_uri() . '/assets/images/logo.png'; ?> " alt="logo Fleurs d'oranger & chats errants">
+
         </section>
         <section class="story">
             <h2>L'histoire</h2>
