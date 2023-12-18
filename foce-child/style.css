@@ -94,8 +94,49 @@
   transform-origin: 77px 77px;
 }
 
-#oscars {
+#liste::before {
+  content: url("./assets/images/Sunflower.png");
+  display: none !important;
+  position: absolute;
+  left: 4em;
+  top: 0em;
+}
+#liste::after {
+  content: url("./assets/images/orchid.png");
+  display: none !important;
+  bottom: 22.8em !important;
+}
+
+#liste ul {
+  padding: 0;
+  margin: 0;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  width: 100%;
+  list-style-type: none;
+  position: relative;
+  display: flex;
+  padding-top: 10em;
+}
+#liste ul li {
+  flex: 1;
+  text-align: center;
+}
+#liste ul li a {
+  text-decoration: none;
+}
+
+#colophon {
+  padding-left: 13em;
+}
+
+.site-footer::after {
+  bottom: 22.8em !important;
+}
+
+.site-footer::before {
+  left: 7em !important;
+  top: 11em !important;
+  position: absolute !important;
+  height: 155px;
+  width: 155px;
 }/*# sourceMappingURL=style.css.map */

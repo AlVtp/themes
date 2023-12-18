@@ -74,9 +74,5 @@ get_header();
 
     </main><!-- #main -->
 
-    <?php
-get_template_part('template-parts/section-oscar');
-?>
-
 <?php
 get_footer();
