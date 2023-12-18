@@ -92,4 +92,10 @@
 
 .story h2::after {
   transform-origin: 77px 77px;
+}
+
+#oscars {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */
