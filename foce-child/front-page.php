@@ -4,7 +4,7 @@ get_header();
 ?>
 
     <main id="primary" class="site-main">
-        <section class="banner logo">
+        <section class="banner">
             <video id="background-video" class="logo" autoplay loop muted> 
             <source src="'wp-content/themes/foce-child/assets/videos/Studio-Koukaki-video-header.mp4';" type="video/mp4"> 
             </video>

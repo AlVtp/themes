@@ -10,7 +10,16 @@
     align-items: center;
 }
   
-  
+.banner {
+  img{
+    z-index: 2;
+    width: 30% !important;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    animation: float-logo 5s linear infinite;
+  }
+}
   
   // Fade in //
 
@@ -21,7 +30,7 @@
       position: absolute;
       display: flex;
       justify-content: center;
-      animation: float-logo 5s linear infinite;
+      animation: float-logo 4s linear infinite;
     }
     animation-name: fadein;
     animation-duration: 2s;
@@ -107,7 +116,7 @@
     transform-origin: 77px 77px;
   }
 
-// Section oscar
+// Section oscar //
 
 #liste {
   &::before {
@@ -161,3 +170,9 @@ padding-top: 10em;
   height: 155px;
   width: 155px;
 }
+
+.site-footer {
+  padding-top: 8em !important;
+}
+// Responsive //
+
